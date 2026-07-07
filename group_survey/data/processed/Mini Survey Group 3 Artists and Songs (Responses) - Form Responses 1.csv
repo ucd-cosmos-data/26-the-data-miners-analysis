@@ -1,0 +1,20 @@
+response_id,timestamp,gender,grade,race,favorite_artist,best_drake_album,best_drake_album_year
+1,2026-07-07 10:42:58,Male,Senior,Asian,Travis Scott,Certified Lover Boy (2021),2021
+2,2026-07-07 10:43:51,Male,Senior,South Asian,The Weeknd,If You're Reading This It's Too Late (2015),2015
+3,2026-07-07 10:44:01,Male,Junior,Asian,Kendrick Lamar,Views (2016),2016
+4,2026-07-07 10:44:02,Male,Junior,South Asian,Drake,For All the Dogs (2023),2023
+5,2026-07-07 10:44:22,Male,Senior,Asian,The Weeknd,Take Care (2011),2011
+6,2026-07-07 10:44:23,Male,Junior,Asian,Billie Eilish,Take Care (2011),2011
+7,2026-07-07 10:44:27,Female,Junior,White,Lady Gaga,"Honestly, Nevermind (2022)",2022
+8,2026-07-07 10:44:57,Male,Senior,Asian,Travis Scott,Views (2016),2016
+9,2026-07-07 10:45:15,Female,Senior,South Asian,Olivia Rodrigo,Views (2016),2016
+10,2026-07-07 10:46:35,Female,Senior,South Asian,Olivia Rodrigo,Scorpion (2018),2018
+11,2026-07-07 10:46:47,Male,Senior,South Asian,The Weeknd,ICEMAN (2026),2026
+12,2026-07-07 10:46:52,Male,Senior,White,Lady Gaga,Thank Me Later (2010),2010
+13,2026-07-07 10:46:58,Male,Junior,Asian,Drake,Certified Lover Boy (2021),2021
+14,2026-07-07 10:47:16,Male,Junior,Asian,Drake,Certified Lover Boy (2021),2021
+15,2026-07-07 10:48:34,Male,Senior,South Asian,Drake,Views (2016),2016
+16,2026-07-07 10:48:55,Male,Junior,South Asian,The Weeknd,ICEMAN (2026),2026
+17,2026-07-07 10:48:57,Female,Junior,Asian,Olivia Rodrigo,Scorpion (2018),2018
+18,2026-07-07 10:49:24,Male,Junior,South Asian,Drake,ICEMAN (2026),2026
+19,2026-07-07 10:50:37,Female,Senior,Asian,The Weeknd,Nothing Was the Same (2013),2013
