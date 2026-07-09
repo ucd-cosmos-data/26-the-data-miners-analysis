@@ -1,59 +1,59 @@
-county,year,retail_esd_availability_pct
-Alameda,2016,0.7
-Alpine,2016,0.0
-Amador,2016,0.6
-Butte,2016,0.78
-Calaveras,2016,0.64
-Colusa,2016,0.43
-Contra Costa,2016,0.65
-Del Norte,2016,0.75
-El Dorado,2016,0.75
-Fresno,2016,0.59
-Glenn,2016,0.58
-Humboldt,2016,0.76
-Imperial,2016,0.63
-Inyo,2016,0.69
-Kern,2016,0.62
-Kings,2016,0.66
-Lake,2016,0.62
-Lassen,2016,0.81
-Los Angeles,2016,0.48
-Madera,2016,0.69
-Marin,2016,0.6
-Mariposa,2016,0.42
-Mendocino,2016,0.63
-Merced,2016,0.54
-Modoc,2016,0.64
-Mono,2016,0.41
-Monterey,2016,0.52
-Napa,2016,0.67
-Nevada,2016,0.72
-Orange,2016,0.69
-Placer,2016,0.88
-Plumas,2016,0.57
-Riverside,2016,0.7
-Sacramento,2016,0.79
-San Benito,2016,0.6
-San Bernardino,2016,0.65
-San Diego,2016,0.71
-San Francisco,2016,0.38
-San Joaquin,2016,0.69
-San Luis Obispo,2016,0.89
-San Mateo,2016,0.54
-Santa Barbara,2016,0.74
-Santa Clara,2016,0.59
-Santa Cruz,2016,0.57
-Shasta,2016,0.75
-Sierra,2016,0.0
-Siskiyou,2016,0.66
-Solano,2016,0.76
-Sonoma,2016,0.72
-Stanislaus,2016,0.69
-Sutter,2016,0.71
-Tehama,2016,0.72
-Trinity,2016,0.48
-Tulare,2016,0.64
-Tuolumne,2016,0.73
-Ventura,2016,0.69
-Yolo,2016,0.74
-Yuba,2016,0.72
+state,county,county_fips,year,retail_esd_availability_prop,retail_esd_availability_pct
+CA,Alameda,06001,2016,0.700,70.0
+CA,Alpine,06003,2016,0.000,0.0
+CA,Amador,06005,2016,0.600,60.0
+CA,Butte,06007,2016,0.780,78.0
+CA,Calaveras,06009,2016,0.640,64.0
+CA,Colusa,06011,2016,0.430,43.0
+CA,Contra Costa,06013,2016,0.650,65.0
+CA,Del Norte,06015,2016,0.750,75.0
+CA,El Dorado,06017,2016,0.750,75.0
+CA,Fresno,06019,2016,0.590,59.0
+CA,Glenn,06021,2016,0.580,58.0
+CA,Humboldt,06023,2016,0.760,76.0
+CA,Imperial,06025,2016,0.630,63.0
+CA,Inyo,06027,2016,0.690,69.0
+CA,Kern,06029,2016,0.620,62.0
+CA,Kings,06031,2016,0.660,66.0
+CA,Lake,06033,2016,0.620,62.0
+CA,Lassen,06035,2016,0.810,81.0
+CA,Los Angeles,06037,2016,0.480,48.0
+CA,Madera,06039,2016,0.690,69.0
+CA,Marin,06041,2016,0.600,60.0
+CA,Mariposa,06043,2016,0.420,42.0
+CA,Mendocino,06045,2016,0.630,63.0
+CA,Merced,06047,2016,0.540,54.0
+CA,Modoc,06049,2016,0.640,64.0
+CA,Mono,06051,2016,0.410,41.0
+CA,Monterey,06053,2016,0.520,52.0
+CA,Napa,06055,2016,0.670,67.0
+CA,Nevada,06057,2016,0.720,72.0
+CA,Orange,06059,2016,0.690,69.0
+CA,Placer,06061,2016,0.880,88.0
+CA,Plumas,06063,2016,0.570,57.0
+CA,Riverside,06065,2016,0.700,70.0
+CA,Sacramento,06067,2016,0.790,79.0
+CA,San Benito,06069,2016,0.600,60.0
+CA,San Bernardino,06071,2016,0.650,65.0
+CA,San Diego,06073,2016,0.710,71.0
+CA,San Francisco,06075,2016,0.380,38.0
+CA,San Joaquin,06077,2016,0.690,69.0
+CA,San Luis Obispo,06079,2016,0.890,89.0
+CA,San Mateo,06081,2016,0.540,54.0
+CA,Santa Barbara,06083,2016,0.740,74.0
+CA,Santa Clara,06085,2016,0.590,59.0
+CA,Santa Cruz,06087,2016,0.570,57.0
+CA,Shasta,06089,2016,0.750,75.0
+CA,Sierra,06091,2016,0.000,0.0
+CA,Siskiyou,06093,2016,0.660,66.0
+CA,Solano,06095,2016,0.760,76.0
+CA,Sonoma,06097,2016,0.720,72.0
+CA,Stanislaus,06099,2016,0.690,69.0
+CA,Sutter,06101,2016,0.710,71.0
+CA,Tehama,06103,2016,0.720,72.0
+CA,Trinity,06105,2016,0.480,48.0
+CA,Tulare,06107,2016,0.640,64.0
+CA,Tuolumne,06109,2016,0.730,73.0
+CA,Ventura,06111,2016,0.690,69.0
+CA,Yolo,06113,2016,0.740,74.0
+CA,Yuba,06115,2016,0.720,72.0
