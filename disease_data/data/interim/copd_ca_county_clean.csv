@@ -1,0 +1,59 @@
+state,county,county_fips,copd_adjusted_prevalence_pct
+CA,Alameda,06001,3.8
+CA,Alpine,06003,4.7
+CA,Amador,06005,5.2
+CA,Butte,06007,6.2
+CA,Calaveras,06009,5.9
+CA,Colusa,06011,5.7
+CA,Contra Costa,06013,4.0
+CA,Del Norte,06015,6.6
+CA,El Dorado,06017,4.6
+CA,Fresno,06019,5.8
+CA,Glenn,06021,6.1
+CA,Humboldt,06023,6.7
+CA,Imperial,06025,5.4
+CA,Inyo,06027,5.2
+CA,Kern,06029,6.4
+CA,Kings,06031,6.1
+CA,Lake,06033,6.9
+CA,Lassen,06035,6.9
+CA,Los Angeles,06037,4.5
+CA,Madera,06039,6.7
+CA,Marin,06041,3.9
+CA,Mariposa,06043,5.9
+CA,Mendocino,06045,6.4
+CA,Merced,06047,6.1
+CA,Modoc,06049,7.0
+CA,Mono,06051,5.1
+CA,Monterey,06053,5.3
+CA,Napa,06055,4.6
+CA,Nevada,06057,5.2
+CA,Orange,06059,4.1
+CA,Placer,06061,4.2
+CA,Plumas,06063,5.9
+CA,Riverside,06065,4.9
+CA,Sacramento,06067,5.1
+CA,San Benito,06069,4.4
+CA,San Bernardino,06071,5.1
+CA,San Diego,06073,4.4
+CA,San Francisco,06075,3.6
+CA,San Joaquin,06077,5.2
+CA,San Luis Obispo,06079,4.9
+CA,San Mateo,06081,3.5
+CA,Santa Barbara,06083,5.2
+CA,Santa Clara,06085,3.3
+CA,Santa Cruz,06087,4.7
+CA,Shasta,06089,6.1
+CA,Sierra,06091,6.9
+CA,Siskiyou,06093,6.6
+CA,Solano,06095,4.6
+CA,Sonoma,06097,4.7
+CA,Stanislaus,06099,5.7
+CA,Sutter,06101,6.1
+CA,Tehama,06103,6.8
+CA,Trinity,06105,7.8
+CA,Tulare,06107,6.0
+CA,Tuolumne,06109,5.6
+CA,Ventura,06111,4.5
+CA,Yolo,06113,5.0
+CA,Yuba,06115,6.3

@@ -1,0 +1,175 @@
+county,year,retail_esd_availability_pct
+Alameda,2013,0.54
+Alameda,2016,0.7
+Alameda,2019,0.48
+Alpine,2013,
+Alpine,2016,0.0
+Alpine,2019,0.0
+Amador,2013,0.3
+Amador,2016,0.6
+Amador,2019,0.61
+Butte,2013,0.47
+Butte,2016,0.78
+Butte,2019,0.64
+Calaveras,2013,0.43
+Calaveras,2016,0.64
+Calaveras,2019,0.59
+Colusa,2013,0.33
+Colusa,2016,0.43
+Colusa,2019,0.28
+Contra Costa,2013,0.52
+Contra Costa,2016,0.65
+Contra Costa,2019,0.58
+Del Norte,2013,0.5
+Del Norte,2016,0.75
+Del Norte,2019,0.81
+El Dorado,2013,0.58
+El Dorado,2016,0.75
+El Dorado,2019,0.76
+Fresno,2013,0.29
+Fresno,2016,0.59
+Fresno,2019,0.4
+Glenn,2013,0.49
+Glenn,2016,0.58
+Glenn,2019,0.55
+Humboldt,2013,0.4
+Humboldt,2016,0.76
+Humboldt,2019,0.6
+Imperial,2013,0.53
+Imperial,2016,0.63
+Imperial,2019,0.52
+Inyo,2013,0.2
+Inyo,2016,0.69
+Inyo,2019,0.42
+Kern,2013,0.42
+Kern,2016,0.62
+Kern,2019,0.55
+Kings,2013,0.22
+Kings,2016,0.66
+Kings,2019,0.35
+Lake,2013,0.47
+Lake,2016,0.62
+Lake,2019,0.61
+Lassen,2013,0.48
+Lassen,2016,0.81
+Lassen,2019,0.69
+Los Angeles,2013,0.36
+Los Angeles,2016,0.48
+Los Angeles,2019,0.43
+Madera,2013,0.32
+Madera,2016,0.69
+Madera,2019,0.52
+Marin,2013,0.46
+Marin,2016,0.6
+Marin,2019,0.62
+Mariposa,2013,0.29
+Mariposa,2016,0.42
+Mariposa,2019,0.36
+Mendocino,2013,0.44
+Mendocino,2016,0.63
+Mendocino,2019,0.55
+Merced,2013,0.4
+Merced,2016,0.54
+Merced,2019,0.5
+Modoc,2013,0.09
+Modoc,2016,0.64
+Modoc,2019,0.0
+Mono,2013,0.21
+Mono,2016,0.41
+Mono,2019,0.36
+Monterey,2013,0.31
+Monterey,2016,0.52
+Monterey,2019,0.34
+Napa,2013,0.55
+Napa,2016,0.67
+Napa,2019,0.59
+Nevada,2013,0.49
+Nevada,2016,0.72
+Nevada,2019,0.64
+Orange,2013,0.57
+Orange,2016,0.69
+Orange,2019,0.62
+Placer,2013,0.55
+Placer,2016,0.88
+Placer,2019,0.82
+Plumas,2013,0.39
+Plumas,2016,0.57
+Plumas,2019,0.5
+Riverside,2013,0.6
+Riverside,2016,0.7
+Riverside,2019,0.63
+Sacramento,2013,0.62
+Sacramento,2016,0.79
+Sacramento,2019,0.69
+San Benito,2013,0.49
+San Benito,2016,0.6
+San Benito,2019,0.46
+San Bernardino,2013,0.5
+San Bernardino,2016,0.65
+San Bernardino,2019,0.56
+San Diego,2013,0.54
+San Diego,2016,0.71
+San Diego,2019,0.64
+San Francisco,2013,0.24
+San Francisco,2016,0.38
+San Francisco,2019,0.42
+San Joaquin,2013,0.46
+San Joaquin,2016,0.69
+San Joaquin,2019,0.49
+San Luis Obispo,2013,0.69
+San Luis Obispo,2016,0.89
+San Luis Obispo,2019,0.73
+San Mateo,2013,0.31
+San Mateo,2016,0.54
+San Mateo,2019,0.62
+Santa Barbara,2013,0.44
+Santa Barbara,2016,0.74
+Santa Barbara,2019,0.7
+Santa Clara,2013,0.47
+Santa Clara,2016,0.59
+Santa Clara,2019,0.68
+Santa Cruz,2013,0.34
+Santa Cruz,2016,0.57
+Santa Cruz,2019,0.48
+Shasta,2013,0.41
+Shasta,2016,0.75
+Shasta,2019,0.6
+Sierra,2013,0.17
+Sierra,2016,0.0
+Sierra,2019,0.25
+Siskiyou,2013,0.43
+Siskiyou,2016,0.66
+Siskiyou,2019,0.56
+Solano,2013,0.6
+Solano,2016,0.76
+Solano,2019,0.56
+Sonoma,2013,0.61
+Sonoma,2016,0.72
+Sonoma,2019,0.63
+Stanislaus,2013,0.58
+Stanislaus,2016,0.69
+Stanislaus,2019,0.51
+Sutter,2013,0.59
+Sutter,2016,0.71
+Sutter,2019,0.59
+Tehama,2013,0.5
+Tehama,2016,0.72
+Tehama,2019,0.79
+Trinity,2013,0.1
+Trinity,2016,0.48
+Trinity,2019,0.25
+Tulare,2013,0.44
+Tulare,2016,0.64
+Tulare,2019,0.53
+Tuolumne,2013,0.4
+Tuolumne,2016,0.73
+Tuolumne,2019,0.52
+Ventura,2013,0.51
+Ventura,2016,0.69
+Ventura,2019,0.6
+Yolo,2013,0.46
+Yolo,2016,0.74
+Yolo,2019,0.56
+Yuba,2013,0.49
+Yuba,2016,0.72
+Yuba,2019,0.71
