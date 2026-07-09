@@ -31,7 +31,7 @@ venv/
 !**/data/processed/.gitkeep
 
 # Results
-**/results/figures/*
+!**/results/figures/*
 !**/results/figures/.gitkeep
 
 # Models
