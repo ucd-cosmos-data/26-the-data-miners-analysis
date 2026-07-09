@@ -1,187 +1,187 @@
-County,Year,Percentage,Lower95CI,Upper95CI
-Alameda,2013,0.54,0.5,0.59
-Alpine,2013,*,n/a,n/a
-Amador,2013,0.3,0.17,0.44
-Berkeley,2013,0.58,n/a,n/a
-Butte,2013,0.47,0.28,0.66
-Calaveras,2013,0.43,n/a,n/a
-Colusa,2013,0.33,n/a,n/a
-Contra Costa,2013,0.52,0.41,0.63
-Del Norte,2013,0.5,n/a,n/a
-El Dorado,2013,0.58,0.48,0.69
-Fresno,2013,0.29,0.18,0.4
-Glenn,2013,0.49,n/a,n/a
-Humboldt,2013,0.4,0.22,0.59
-Imperial,2013,0.53,0.46,0.6
-Inyo,2013,0.2,n/a,n/a
-Kern,2013,0.42,0.29,0.55
-Kings,2013,0.22,n/a,n/a
-Lake,2013,0.47,n/a,n/a
-Lassen,2013,0.48,n/a,n/a
-Long Beach,2013,0.3,0.16,0.44
-Los Angeles,2013,0.36,0.27,0.44
-Madera,2013,0.32,0.19,0.45
-Marin,2013,0.46,0.35,0.57
-Mariposa,2013,0.29,n/a,n/a
-Mendocino,2013,0.44,0.3,0.59
-Merced,2013,0.4,0.25,0.55
-Modoc,2013,0.09,n/a,n/a
-Mono,2013,0.21,n/a,n/a
-Monterey,2013,0.31,0.06,0.55
-Napa,2013,0.55,0.26,0.85
-Nevada,2013,0.49,n/a,n/a
-Orange,2013,0.57,0.48,0.67
-Pasadena,2013,0.43,n/a,n/a
-Placer,2013,0.55,0.49,0.61
-Plumas,2013,0.39,n/a,n/a
-Riverside,2013,0.6,0.51,0.69
-Sacramento,2013,0.62,0.52,0.73
-San Benito,2013,0.49,n/a,n/a
-San Bernardino,2013,0.5,0.32,0.68
-San Diego,2013,0.54,0.45,0.64
-San Francisco,2013,0.24,0.1,0.39
-San Joaquin,2013,0.46,0.14,0.78
-San Luis Obispo,2013,0.69,0.53,0.85
-San Mateo,2013,0.31,n/a,n/a
-Santa Barbara,2013,0.44,0.38,0.5
-Santa Clara,2013,0.47,0.32,0.62
-Santa Cruz,2013,0.34,0.15,0.53
-Shasta,2013,0.41,n/a,n/a
-Sierra,2013,0.17,n/a,n/a
-Siskiyou,2013,0.43,0.29,0.57
-Solano,2013,0.6,0.38,0.81
-Sonoma,2013,0.61,0.5,0.71
-Stanislaus,2013,0.58,0.5,0.67
-STATEWIDE,2013,0.46,0.41,0.5
-Sutter,2013,0.59,0.55,0.64
-Tehama,2013,0.5,0.37,0.63
-Trinity,2013,0.1,n/a,n/a
-Tulare,2013,0.44,0.28,0.59
-Tuolumne,2013,0.4,n/a,n/a
-Ventura,2013,0.51,0.36,0.67
-Yolo,2013,0.46,0.31,0.61
-Yuba,2013,0.49,0.19,0.78
-Alameda,2016,0.7,0.61,0.8
-Alpine,2016,0,n/a,n/a
-Amador,2016,0.6,n/a,n/a
-Berkeley,2016,0.73,n/a,n/a
-Butte,2016,0.78,0.7,0.86
-Calaveras,2016,0.64,n/a,n/a
-Colusa,2016,0.43,n/a,n/a
-Contra Costa,2016,0.65,0.54,0.76
-Del Norte,2016,0.75,n/a,n/a
-El Dorado,2016,0.75,n/a,n/a
-Fresno,2016,0.59,0.45,0.73
-Glenn,2016,0.58,n/a,n/a
-Humboldt,2016,0.76,0.63,0.88
-Imperial,2016,0.63,n/a,n/a
-Inyo,2016,0.69,n/a,n/a
-Kern,2016,0.62,0.45,0.79
-Kings,2016,0.66,n/a,n/a
-Lake,2016,0.62,n/a,n/a
-Lassen,2016,0.81,n/a,n/a
-Long Beach,2016,0.41,0.33,0.49
-Los Angeles,2016,0.48,0.36,0.6
-Madera,2016,0.69,0.58,0.81
-Marin,2016,0.6,n/a,n/a
-Mariposa,2016,0.42,n/a,n/a
-Mendocino,2016,0.63,0.45,0.81
-Merced,2016,0.54,0.35,0.72
-Modoc,2016,0.64,n/a,n/a
-Mono,2016,0.41,n/a,n/a
-Monterey,2016,0.52,0.23,0.81
-Napa,2016,0.67,0.43,0.91
-Nevada,2016,0.72,n/a,n/a
-Orange,2016,0.69,0.59,0.8
-Pasadena,2016,0.52,0.24,0.81
-Placer,2016,0.88,0.83,0.93
-Plumas,2016,0.57,n/a,n/a
-Riverside,2016,0.7,0.61,0.78
-Sacramento,2016,0.79,0.69,0.88
-San Benito,2016,0.6,n/a,n/a
-San Bernardino,2016,0.65,0.53,0.76
-San Diego,2016,0.71,0.67,0.74
-San Francisco,2016,0.38,0.03,0.73
-San Joaquin,2016,0.69,0.5,0.87
-San Luis Obispo,2016,0.89,0.77,1
-San Mateo,2016,0.54,n/a,n/a
-Santa Barbara,2016,0.74,0.65,0.84
-Santa Clara,2016,0.59,0.51,0.68
-Santa Cruz,2016,0.57,0.38,0.76
-Shasta,2016,0.75,n/a,n/a
-Sierra,2016,0,n/a,n/a
-Siskiyou,2016,0.66,0.49,0.82
-Solano,2016,0.76,0.44,1
-Sonoma,2016,0.72,0.67,0.77
-Stanislaus,2016,0.69,0.6,0.78
-STATEWIDE,2016,0.62,0.57,0.68
-Sutter,2016,0.71,0.58,0.85
-Tehama,2016,0.72,n/a,n/a
-Trinity,2016,0.48,n/a,n/a
-Tulare,2016,0.64,0.48,0.8
-Tuolumne,2016,0.73,n/a,n/a
-Ventura,2016,0.69,0.61,0.78
-Yolo,2016,0.74,0.62,0.85
-Yuba,2016,0.72,0.39,1
-Alameda,2019,0.48,n/a,n/a
-Alpine,2019,0,n/a,n/a
-Amador,2019,0.61,n/a,n/a
-Berkeley,2019,0.53,n/a,n/a
-Butte,2019,0.64,n/a,n/a
-Calaveras,2019,0.59,n/a,n/a
-Colusa,2019,0.28,n/a,n/a
-Contra Costa,2019,0.58,0.42,0.74
-Del Norte,2019,0.81,n/a,n/a
-El Dorado,2019,0.76,n/a,n/a
-Fresno,2019,0.4,0.25,0.56
-Glenn,2019,0.55,n/a,n/a
-Humboldt,2019,0.6,0.47,0.74
-Imperial,2019,0.52,n/a,n/a
-Inyo,2019,0.42,n/a,n/a
-Kern,2019,0.55,0.36,0.74
-Kings,2019,0.35,0.21,0.49
-Lake,2019,0.61,n/a,n/a
-Lassen,2019,0.69,n/a,n/a
-Long Beach,2019,0.35,0.17,0.54
-Los Angeles,2019,0.43,0.31,0.55
-Madera,2019,0.52,0.35,0.68
-Marin,2019,0.62,n/a,n/a
-Mariposa,2019,0.36,n/a,n/a
-Mendocino,2019,0.55,0.41,0.69
-Merced,2019,0.5,0.37,0.64
-Modoc,2019,0,n/a,n/a
-Mono,2019,0.36,n/a,n/a
-Monterey,2019,0.34,0.14,0.54
-Napa,2019,0.59,n/a,n/a
-Nevada,2019,0.64,n/a,n/a
-Orange,2019,0.62,0.54,0.7
-Pasadena,2019,0.53,n/a,n/a
-Placer,2019,0.82,0.75,0.89
-Plumas,2019,0.5,0.22,0.78
-Riverside,2019,0.63,0.55,0.71
-Sacramento,2019,0.69,0.59,0.8
-San Benito,2019,0.46,n/a,n/a
-San Bernardino,2019,0.56,0.47,0.64
-San Diego,2019,0.64,0.55,0.72
-San Francisco,2019,0.42,0.01,0.83
-San Joaquin,2019,0.49,0.38,0.6
-San Luis Obispo,2019,0.73,0.58,0.89
-San Mateo,2019,0.62,n/a,n/a
-Santa Barbara,2019,0.7,0.57,0.83
-Santa Clara,2019,0.68,n/a,n/a
-Santa Cruz,2019,0.48,0.42,0.54
-Shasta,2019,0.6,n/a,n/a
-Sierra,2019,0.25,n/a,n/a
-Siskiyou,2019,0.56,n/a,n/a
-Solano,2019,0.56,0,1
-Sonoma,2019,0.63,0.58,0.68
-Stanislaus,2019,0.51,0.4,0.61
-STATEWIDE,2019,,,
-Sutter,2019,0.59,n/a,n/a
-Tehama,2019,0.79,0.71,0.87
-Trinity,2019,0.25,n/a,n/a
-Tulare,2019,0.53,0.42,0.63
-Tuolumne,2019,0.52,n/a,n/a
-Ventura,2019,0.6,n/a,n/a
-Yolo,2019,0.56,0.37,0.74
-Yuba,2019,0.71,0.47,0.95
+County,Year,Percentage
+Alameda,2013,0.54
+Alpine,2013,*
+Amador,2013,0.3
+Berkeley,2013,0.58
+Butte,2013,0.47
+Calaveras,2013,0.43
+Colusa,2013,0.33
+Contra Costa,2013,0.52
+Del Norte,2013,0.5
+El Dorado,2013,0.58
+Fresno,2013,0.29
+Glenn,2013,0.49
+Humboldt,2013,0.4
+Imperial,2013,0.53
+Inyo,2013,0.2
+Kern,2013,0.42
+Kings,2013,0.22
+Lake,2013,0.47
+Lassen,2013,0.48
+Long Beach,2013,0.3
+Los Angeles,2013,0.36
+Madera,2013,0.32
+Marin,2013,0.46
+Mariposa,2013,0.29
+Mendocino,2013,0.44
+Merced,2013,0.4
+Modoc,2013,0.09
+Mono,2013,0.21
+Monterey,2013,0.31
+Napa,2013,0.55
+Nevada,2013,0.49
+Orange,2013,0.57
+Pasadena,2013,0.43
+Placer,2013,0.55
+Plumas,2013,0.39
+Riverside,2013,0.6
+Sacramento,2013,0.62
+San Benito,2013,0.49
+San Bernardino,2013,0.5
+San Diego,2013,0.54
+San Francisco,2013,0.24
+San Joaquin,2013,0.46
+San Luis Obispo,2013,0.69
+San Mateo,2013,0.31
+Santa Barbara,2013,0.44
+Santa Clara,2013,0.47
+Santa Cruz,2013,0.34
+Shasta,2013,0.41
+Sierra,2013,0.17
+Siskiyou,2013,0.43
+Solano,2013,0.6
+Sonoma,2013,0.61
+Stanislaus,2013,0.58
+STATEWIDE,2013,0.46
+Sutter,2013,0.59
+Tehama,2013,0.5
+Trinity,2013,0.1
+Tulare,2013,0.44
+Tuolumne,2013,0.4
+Ventura,2013,0.51
+Yolo,2013,0.46
+Yuba,2013,0.49
+Alameda,2016,0.7
+Alpine,2016,0
+Amador,2016,0.6
+Berkeley,2016,0.73
+Butte,2016,0.78
+Calaveras,2016,0.64
+Colusa,2016,0.43
+Contra Costa,2016,0.65
+Del Norte,2016,0.75
+El Dorado,2016,0.75
+Fresno,2016,0.59
+Glenn,2016,0.58
+Humboldt,2016,0.76
+Imperial,2016,0.63
+Inyo,2016,0.69
+Kern,2016,0.62
+Kings,2016,0.66
+Lake,2016,0.62
+Lassen,2016,0.81
+Long Beach,2016,0.41
+Los Angeles,2016,0.48
+Madera,2016,0.69
+Marin,2016,0.6
+Mariposa,2016,0.42
+Mendocino,2016,0.63
+Merced,2016,0.54
+Modoc,2016,0.64
+Mono,2016,0.41
+Monterey,2016,0.52
+Napa,2016,0.67
+Nevada,2016,0.72
+Orange,2016,0.69
+Pasadena,2016,0.52
+Placer,2016,0.88
+Plumas,2016,0.57
+Riverside,2016,0.7
+Sacramento,2016,0.79
+San Benito,2016,0.6
+San Bernardino,2016,0.65
+San Diego,2016,0.71
+San Francisco,2016,0.38
+San Joaquin,2016,0.69
+San Luis Obispo,2016,0.89
+San Mateo,2016,0.54
+Santa Barbara,2016,0.74
+Santa Clara,2016,0.59
+Santa Cruz,2016,0.57
+Shasta,2016,0.75
+Sierra,2016,0
+Siskiyou,2016,0.66
+Solano,2016,0.76
+Sonoma,2016,0.72
+Stanislaus,2016,0.69
+STATEWIDE,2016,0.62
+Sutter,2016,0.71
+Tehama,2016,0.72
+Trinity,2016,0.48
+Tulare,2016,0.64
+Tuolumne,2016,0.73
+Ventura,2016,0.69
+Yolo,2016,0.74
+Yuba,2016,0.72
+Alameda,2019,0.48
+Alpine,2019,0
+Amador,2019,0.61
+Berkeley,2019,0.53
+Butte,2019,0.64
+Calaveras,2019,0.59
+Colusa,2019,0.28
+Contra Costa,2019,0.58
+Del Norte,2019,0.81
+El Dorado,2019,0.76
+Fresno,2019,0.4
+Glenn,2019,0.55
+Humboldt,2019,0.6
+Imperial,2019,0.52
+Inyo,2019,0.42
+Kern,2019,0.55
+Kings,2019,0.35
+Lake,2019,0.61
+Lassen,2019,0.69
+Long Beach,2019,0.35
+Los Angeles,2019,0.43
+Madera,2019,0.52
+Marin,2019,0.62
+Mariposa,2019,0.36
+Mendocino,2019,0.55
+Merced,2019,0.5
+Modoc,2019,0
+Mono,2019,0.36
+Monterey,2019,0.34
+Napa,2019,0.59
+Nevada,2019,0.64
+Orange,2019,0.62
+Pasadena,2019,0.53
+Placer,2019,0.82
+Plumas,2019,0.5
+Riverside,2019,0.63
+Sacramento,2019,0.69
+San Benito,2019,0.46
+San Bernardino,2019,0.56
+San Diego,2019,0.64
+San Francisco,2019,0.42
+San Joaquin,2019,0.49
+San Luis Obispo,2019,0.73
+San Mateo,2019,0.62
+Santa Barbara,2019,0.7
+Santa Clara,2019,0.68
+Santa Cruz,2019,0.48
+Shasta,2019,0.6
+Sierra,2019,0.25
+Siskiyou,2019,0.56
+Solano,2019,0.56
+Sonoma,2019,0.63
+Stanislaus,2019,0.51
+STATEWIDE,2019,
+Sutter,2019,0.59
+Tehama,2019,0.79
+Trinity,2019,0.25
+Tulare,2019,0.53
+Tuolumne,2019,0.52
+Ventura,2019,0.6
+Yolo,2019,0.56
+Yuba,2019,0.71
