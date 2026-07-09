@@ -1,6 +1,6 @@
 county,year,retail_esd_availability_pct
 Alameda,2016,0.7
-Alpine,2016,0.0
+Alpine,2016,0.66
 Amador,2016,0.6
 Butte,2016,0.78
 Calaveras,2016,0.64
@@ -44,7 +44,7 @@ Santa Barbara,2016,0.74
 Santa Clara,2016,0.59
 Santa Cruz,2016,0.57
 Shasta,2016,0.75
-Sierra,2016,0.0
+Sierra,2016,0.66
 Siskiyou,2016,0.66
 Solano,2016,0.76
 Sonoma,2016,0.72
