@@ -1,0 +1,13 @@
+{
+  "counties": 58,
+  "retail_year": [
+    2016
+  ],
+  "retail_min": 0.0,
+  "retail_max": 89.0,
+  "retail_mean": 63.1,
+  "copd_year": 2023,
+  "copd_min": 3.3,
+  "copd_max": 7.8,
+  "copd_mean": 5.4
+}
