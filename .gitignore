@@ -23,12 +23,12 @@ venv/
 **/Thumbs.db
 
 # Data
-!**/data/interim/*
-!**/data/processed/*
-!**/data/raw/*
-!**/data/raw/.gitkeep
-!**/data/interim/.gitkeep
-!**/data/processed/.gitkeep
+**/data/interim/*
+**/data/processed/*
+**/data/raw/*
+**/data/raw/.gitkeep
+**/data/interim/.gitkeep
+**/data/processed/.gitkeep
 
 # Results
 !**/results/figures/*
