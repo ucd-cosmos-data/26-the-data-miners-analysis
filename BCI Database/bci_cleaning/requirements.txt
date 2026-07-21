@@ -1,0 +1,9 @@
+pandas==3.0.3
+openpyxl==3.1.5
+mne==1.10.2
+pypdf==5.9.0
+certifi==2026.6.17
+nbformat==5.10.4
+nbclient==0.11.0
+nbconvert==7.17.1
+ipykernel==7.3.0

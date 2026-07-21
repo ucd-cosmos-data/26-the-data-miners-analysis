@@ -1,0 +1,7 @@
+cleaned/
+logs/*.jsonl
+logs/inventory_hash_cache.jsonl
+logs/matplotlib/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

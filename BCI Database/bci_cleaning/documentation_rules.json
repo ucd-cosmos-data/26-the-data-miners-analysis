@@ -1,0 +1,58 @@
+{
+  "dataset": {
+    "title": "A large EEG database with users' profile information for motor imagery Brain-Computer Interface research",
+    "zenodo_record": "https://zenodo.org/records/8089820",
+    "article": "https://www.nature.com/articles/s41597-023-02445-z",
+    "archive_md5": "c8c6f5f09f1882666eec10e29155fdcb"
+  },
+  "participants": {
+    "A": {"first": 1, "last": 60, "count": 60},
+    "B": {"first": 61, "last": 81, "count": 21},
+    "C": {"first": 82, "last": 87, "count": 6},
+    "total": 87,
+    "sessions_per_participant": 1
+  },
+  "recordings": {
+    "sampling_rate_hz": 512,
+    "channels": {"EEG": 27, "EOG": 3, "EMG": 2, "total": 32},
+    "baseline_files": ["OE", "CE"],
+    "acquisition_runs": ["R1", "R2"],
+    "online_runs": ["R3", "R4", "R5", "R6"],
+    "trials_per_mi_run": 40,
+    "left_cues_per_mi_run": 20,
+    "right_cues_per_mi_run": 20
+  },
+  "stimulations": {
+    "32769": "run_start",
+    "32770": "run_end",
+    "768": "trial_start",
+    "786": "cross_displayed",
+    "33282": "acoustic_signal",
+    "769": "left_hand_cue",
+    "770": "right_hand_cue",
+    "781": "feedback_start",
+    "800": "trial_and_feedback_end"
+  },
+  "documented_exceptions": {
+    "A1": "R1 and R2 were extracted from a concatenated recording and lack end-of-trial and end-of-run triggers.",
+    "A9": "Only R1 was used for frequency-band selection; both acquisition recordings remain available.",
+    "A11": "Only R1 was used for frequency-band selection; both acquisition recordings remain available.",
+    "A59": "R5, R6, associated EEG data, and filters are missing because the participant left early.",
+    "B_questionnaire_loss": "Thirteen Dataset B participants have documented losses for specified questionnaire items.",
+    "C83": "ILS and 16PF5 results are documented as lost. Missing configuration assets remain an unresolved source warning."
+  },
+  "table_policy": {
+    "canonical_performance_source": "Perfomances.xlsx",
+    "preserve_column_names": true,
+    "preserve_section_headers": true,
+    "preserve_decimal_commas": true,
+    "preserve_multiline_fields": true,
+    "aliases_are_documentation_only": true
+  },
+  "cleaning_allowlist": {
+    "frequency_csv": "Remove only the verified CRCRLF empty-line artifact and emit UTF-8 LF records after nonempty-cell-matrix equivalence.",
+    "performance_csv": "Losslessly decode CP1252 and emit UTF-8 with LF record separators after exact parsed-cell-matrix equivalence.",
+    "administrative_artifacts": [".DS_Store", "invalid Office owner-lock files beginning with ~$"],
+    "all_other_files": "preserve_byte_identical"
+  }
+}
