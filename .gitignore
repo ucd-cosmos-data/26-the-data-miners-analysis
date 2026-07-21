@@ -30,9 +30,8 @@ venv/
 **/data/interim/.gitkeep
 **/data/processed/.gitkeep
 
-# Dreyer EEG dataset: keep the publisher data local, but track the cleaning project.
-/BCI Database/*
-!/BCI Database/bci_cleaning/
+# Dreyer EEG dataset: keep the untouched publisher data local.
+/BCI Database/
 
 # Results
 !**/results/figures/*

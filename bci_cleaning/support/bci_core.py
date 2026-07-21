@@ -30,10 +30,10 @@ from typing import Any, Iterable, Iterator, Sequence
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RAW = PROJECT_ROOT / "raw"
-DEFAULT_CLEANED = PROJECT_ROOT / "cleaned"
-DEFAULT_REPORTS = PROJECT_ROOT / "reports"
-DEFAULT_LOGS = PROJECT_ROOT / "logs"
+DEFAULT_RAW = PROJECT_ROOT / "data" / "raw"
+DEFAULT_CLEANED = PROJECT_ROOT / "data" / "processed"
+DEFAULT_REPORTS = PROJECT_ROOT / "results" / "reports"
+DEFAULT_LOGS = PROJECT_ROOT / "results" / "logs"
 ZENODO_URL = "https://zenodo.org/records/8089820/files/BCI%20Database.zip?download=1"
 ZENODO_RECORD = "https://zenodo.org/records/8089820"
 ARTICLE_URL = "https://www.nature.com/articles/s41597-023-02445-z"
@@ -229,9 +229,7 @@ def assert_safe_paths(raw: Path, cleaned: Path) -> tuple[Path, Path]:
     except ValueError:
         pass
     else:
-        embedded_cleaned = (PROJECT_ROOT / "cleaned").resolve(strict=False)
-        if cleaned_abs != embedded_cleaned:
-            raise RuntimeError("Refusing to place cleaned output inside the raw dataset")
+        raise RuntimeError("Refusing to place cleaned output inside the raw dataset")
     try:
         raw_resolved.relative_to(cleaned_abs)
     except ValueError:
@@ -242,30 +240,10 @@ def assert_safe_paths(raw: Path, cleaned: Path) -> tuple[Path, Path]:
 
 
 def iter_files(root: Path) -> Iterator[Path]:
-    root = root.resolve(strict=True)
-    project = PROJECT_ROOT.resolve(strict=True)
-    try:
-        project.relative_to(root)
-    except ValueError:
-        excluded_project: Path | None = None
-    else:
-        excluded_project = project
-
-    files: list[Path] = []
-    for current_text, directories, filenames in os.walk(root, followlinks=False):
-        current = Path(current_text)
-        if excluded_project is not None:
-            directories[:] = [
-                name
-                for name in directories
-                if (current / name).resolve(strict=False) != excluded_project
-            ]
-        directories.sort()
-        for name in sorted(filenames):
-            path = current / name
-            if path.is_file():
-                files.append(path)
-    yield from sorted(files, key=lambda path: path.relative_to(root).as_posix())
+    yield from sorted(
+        (path for path in root.rglob("*") if path.is_file()),
+        key=lambda path: path.relative_to(root).as_posix(),
+    )
 
 
 def extension_for(path: Path) -> str:
@@ -601,34 +579,35 @@ def is_administrative_artifact(relative: str, path: Path) -> bool:
 
 
 def clone_tree_apfs(source: Path, destination: Path) -> None:
+    preserve_gitkeep = False
     if destination.exists():
-        if destination.is_dir() and not any(destination.iterdir()):
+        entries = list(destination.iterdir()) if destination.is_dir() else []
+        if destination.is_dir() and not entries:
+            destination.rmdir()
+        elif (
+            destination.is_dir()
+            and len(entries) == 1
+            and entries[0].name == ".gitkeep"
+            and entries[0].is_file()
+        ):
+            preserve_gitkeep = True
+            entries[0].unlink()
             destination.rmdir()
         else:
             raise FileExistsError(f"Cleaned destination must not exist or must be empty: {destination}")
     ensure_directory(destination.parent)
-    source = source.resolve(strict=True)
-    destination = destination.resolve(strict=False)
-    try:
-        nested_destination = destination.relative_to(source)
-    except ValueError:
-        commands = [["cp", "-cR", str(source), str(destination)]]
-    else:
-        if not nested_destination.parts:
-            raise RuntimeError("Cleaned destination cannot be the raw source")
-        excluded_top_level = nested_destination.parts[0]
-        destination.mkdir(parents=True)
-        commands = [
-            ["cp", "-cR", str(child), str(destination / child.name)]
-            for child in sorted(source.iterdir(), key=lambda path: path.name)
-            if child.name != excluded_top_level
-        ]
-    for command in commands:
-        result = subprocess.run(command, check=False, capture_output=True, text=True)
-        if result.returncode != 0:
-            raise RuntimeError(
-                f"APFS clone failed; ordinary copy is forbidden: {result.stderr.strip()}"
-            )
+    result = subprocess.run(
+        ["cp", "-cR", str(source), str(destination)],
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        if preserve_gitkeep:
+            atomic_write_bytes(destination / ".gitkeep", b"\n")
+        raise RuntimeError(f"APFS clone failed; ordinary copy is forbidden: {result.stderr.strip()}")
+    if preserve_gitkeep:
+        atomic_write_bytes(destination / ".gitkeep", b"\n")
 
 
 def verify_inventory_snapshot(raw: Path, inventory_path: Path, logs: Path, run_id: str) -> list[str]:

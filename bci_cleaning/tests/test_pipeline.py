@@ -105,20 +105,31 @@ class SafetyAndFormatTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 assert_safe_paths(raw, raw / "cleaned")
 
-    def test_embedded_clone_skips_project_subtree(self) -> None:
+    def test_project_style_processed_output_stays_outside_raw(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
-            raw = Path(temp) / "BCI Database"
-            project = raw / "bci_cleaning"
-            project.mkdir(parents=True)
-            (raw / "publisher.txt").write_text("publisher data", encoding="utf-8")
-            (project / "notebook.ipynb").write_text("project file", encoding="utf-8")
-            cleaned = project / "cleaned"
-            clone_tree_apfs(raw, cleaned)
+            root = Path(temp)
+            source = root / "BCI Database"
+            source.mkdir()
+            (source / "publisher.txt").write_text("publisher data", encoding="utf-8")
+            project = root / "bci_cleaning"
+            data = project / "data"
+            data.mkdir(parents=True)
+            raw_link = data / "raw"
+            raw_link.symlink_to(Path("..") / ".." / source.name)
+            processed = data / "processed"
+            processed.mkdir()
+            (processed / ".gitkeep").write_text("\n", encoding="utf-8")
+            raw, destination = assert_safe_paths(raw_link, processed)
+            clone_tree_apfs(raw, destination)
             self.assertEqual(
-                (cleaned / "publisher.txt").read_text(encoding="utf-8"),
+                (processed / "publisher.txt").read_text(encoding="utf-8"),
                 "publisher data",
             )
-            self.assertFalse((cleaned / "bci_cleaning").exists())
+            self.assertEqual(
+                (source / "publisher.txt").read_text(encoding="utf-8"),
+                "publisher data",
+            )
+            self.assertTrue((processed / ".gitkeep").is_file())
 
     def test_administrative_artifacts_require_exact_rules(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
