@@ -13,6 +13,7 @@
     "sessions_per_participant": 1
   },
   "recordings": {
+    "expected_gdf_files": 694,
     "sampling_rate_hz": 512,
     "channels": {"EEG": 27, "EOG": 3, "EMG": 2, "total": 32},
     "baseline_files": ["OE", "CE"],

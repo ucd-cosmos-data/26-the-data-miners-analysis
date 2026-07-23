@@ -26,6 +26,7 @@ from bci_core import (  # noqa: E402
     validate_xml,
     validate_zip_container,
 )
+from eda_readiness import inspect_processed_csvs, workbook_participant_ids  # noqa: E402
 
 
 class CsvCleaningTests(unittest.TestCase):
@@ -171,6 +172,61 @@ class SafetyAndFormatTests(unittest.TestCase):
             self.skipTest("pypdf not installed")
         with self.assertRaises(Exception):
             PdfReader(io.BytesIO(b"not a pdf"), strict=True)
+
+
+class EdaReadinessTests(unittest.TestCase):
+    def test_processed_csv_gate_accepts_utf8_lf_interfaces(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            cleaned = Path(temp)
+            performance = cleaned / "Perfomances.csv"
+            performance.write_bytes("SUJ_ID;COMMENT\nA1;vélo\n".encode("utf-8"))
+            frequency = cleaned / "frequency-band-selected-A1.csv"
+            frequency.write_bytes(b"FREQUENCY,SCORE\n8,1.5\n")
+            manifest = [
+                {
+                    "cleaned_relative_path": performance.name,
+                    "action": "normalized_performance_csv",
+                },
+                {
+                    "cleaned_relative_path": frequency.name,
+                    "action": "normalized_frequency_csv",
+                },
+            ]
+            result = inspect_processed_csvs(cleaned, manifest)
+            self.assertEqual(result["actual_count"], 2)
+            self.assertFalse(result["failures"])
+
+    def test_processed_csv_gate_rejects_cr_bytes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            cleaned = Path(temp)
+            path = cleaned / "frequency-band-selected-A1.csv"
+            path.write_bytes(b"FREQUENCY,SCORE\r\n8,1.5\r\n")
+            manifest = [
+                {
+                    "cleaned_relative_path": path.name,
+                    "action": "normalized_frequency_csv",
+                }
+            ]
+            result = inspect_processed_csvs(cleaned, manifest)
+            self.assertIn(f"{path.name}: contains CR bytes", result["failures"])
+
+    def test_workbook_gate_reads_participant_ids(self) -> None:
+        try:
+            import openpyxl
+        except ImportError:
+            self.skipTest("openpyxl not installed")
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "Perfomances.xlsx"
+            workbook = openpyxl.Workbook()
+            sheet = workbook.active
+            sheet.append(["SUJ_ID", "score"])
+            sheet.append(["A1", 10])
+            sheet.append(["B61", 20])
+            workbook.save(path)
+            workbook.close()
+            identifiers, sheets = workbook_participant_ids(path)
+            self.assertEqual(identifiers, ["A1", "B61"])
+            self.assertEqual(len(sheets), 1)
 
 
 if __name__ == "__main__":

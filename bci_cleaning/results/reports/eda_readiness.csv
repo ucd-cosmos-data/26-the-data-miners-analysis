@@ -1,0 +1,11 @@
+check,status,observed,expected,details
+archive_verification,pass,passed,all Zenodo members match; only explicit administrative extras accepted,Confirms the raw extraction used by the pipeline matches the published archive.
+cleaning_manifest,pass,1073/1073 verified,"1073 unique raw files, all verified",Requires exactly one verified lineage record for every inventoried raw file.
+post_clean_traceability,pass,1073/1073 passed,1073 raw immutability and cleaned-equivalence checks,"Covers raw SHA-256 identity, cleaned lineage, and GDF byte identity."
+processed_membership,pass,1068 files; extras=0; missing=0,exactly 1068 manifest-listed files,Rejects untracked additions and missing processed files.
+blocking_validation_issues,pass,0,0,4 preserved warning(s) remain documented for EDA.
+participant_directories,pass,87 unique IDs,"87 IDs: A1-A60, B61-B81, C82-C87",Participant identifiers must remain unchanged between cleaning and EDA.
+gdf_handoff,pass,694 files; byte-identical=True,"694 documented recordings, all traceable and byte-identical",Signals remain unpreprocessed; EDA code should read them from data/processed/.
+canonical_workbook,pass,87 unique participant rows across 1 sheet(s),readable workbook with exactly the 87 documented participant IDs,Perfomances.xlsx is the canonical tabular source; its multi-section layout is preserved.
+processed_csv_interfaces,pass,86 files; 43798 parsed records; failures=0,"86 manifest-listed UTF-8, LF-only, parseable CSV files",All normalized CSV interfaces are readable.
+raw_processed_separation,pass,raw=/Users/samarth.gaggar/COSMOS/26-the-data-miners-analysis/BCI Database; processed=/Users/samarth.gaggar/COSMOS/26-the-data-miners-analysis/bci_cleaning/data/processed,separate trees,EDA must use data/processed/ and must never write into data/raw/.
