@@ -1,16 +1,16 @@
 # Cleaning Report
 
-- Run ID: `ade01978-d864-432b-a446-fedbe6ae0dff`
-- Raw source: `/Users/samarth.gaggar/COSMOS/26-the-data-miners-analysis/BCI Database`
-- Cleaned tree: `/Users/samarth.gaggar/COSMOS/26-the-data-miners-analysis/bci_cleaning/data/processed`
-- Raw files represented: 1,073
+- Run ID: `cfd29b02-5845-476d-85f3-2a0af8c6ddb3`
+- Raw source: `/Users/aninanni/Documents/cosmos/26-the-data-miners-analysis/bci_cleaning/data/raw/BCI Database`
+- Cleaned tree: `/Users/aninanni/Documents/cosmos/26-the-data-miners-analysis/bci_cleaning/data/processed`
+- Raw files represented: 1,074
 - Raw dataset modified: no
 - GDF recordings modified: no
 - Participant IDs, timestamps, runs, and trial order modified: no
 
 ## Actions
 
-- `excluded_administrative_artifact`: 5 files
+- `excluded_administrative_artifact`: 6 files
 - `normalized_frequency_csv`: 85 files
 - `normalized_performance_csv`: 1 files
 - `preserved_byte_identical`: 982 files
