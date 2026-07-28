@@ -1,0 +1,19 @@
+{
+  "seed": 20260727,
+  "n_explore": 30,
+  "n_confirm": 57,
+  "allocation": {
+    "confirm": {
+      "A": 39,
+      "B": 14,
+      "C": 4
+    },
+    "explore": {
+      "A": 21,
+      "B": 7,
+      "C": 2
+    }
+  },
+  "sha256": "2f6bf16e46a6c7af5fc12134539b5fbf0f50903c0cdca634182a1b54103c463f",
+  "rule": "stratified random assignment from subject ID and dataset only"
+}

@@ -1,0 +1,22 @@
+             Mixed Linear Model Regression Results
+===============================================================
+Model:              MixedLM   Dependent Variable:   margin     
+No. Observations:   13432     Method:               ML         
+No. Groups:         84        Scale:                9.2276     
+Min. group size:    152       Log-Likelihood:       -34258.2410
+Max. group size:    160       Converged:            Yes        
+Mean group size:    159.9                                      
+---------------------------------------------------------------
+                    Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+---------------------------------------------------------------
+Intercept            0.022    0.445   0.050 0.960 -0.850  0.894
+reject_flag[T.True] -3.754    0.477  -7.863 0.000 -4.689 -2.818
+z_state              0.043    0.115   0.370 0.712 -0.184  0.269
+trial_centered       0.080    0.026   3.009 0.003  0.028  0.131
+run_centered        -0.035    0.026  -1.343 0.179 -0.087  0.016
+blink_amplitude     -0.616    0.031 -19.776 0.000 -0.677 -0.555
+emg_rms_20_45hz     -0.072    0.059  -1.230 0.219 -0.187  0.043
+Group Var           16.485    0.845                            
+Group x z_state Cov  0.665    0.098                            
+z_state Var          0.380    0.037                            
+===============================================================

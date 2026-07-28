@@ -1,0 +1,8 @@
+[
+  {
+    "n_subjects":87,
+    "median_lag1":0.9952697078,
+    "n_lag1_p_lt_0_05":78,
+    "cp2_pass":true
+  }
+]

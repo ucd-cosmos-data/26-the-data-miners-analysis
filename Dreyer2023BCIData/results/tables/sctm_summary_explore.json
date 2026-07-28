@@ -1,0 +1,13 @@
+[
+  {
+    "n_subjects":30,
+    "split":"explore",
+    "mean_differential_partial_r2":0.0037517857,
+    "partial_r2_ci_low":0.0027950363,
+    "partial_r2_ci_high":0.0049928799,
+    "n_subject_p_lt_0_05":8,
+    "mean_cross_state_gap_auc":0.016595056,
+    "gap_ci_low":-0.0047066948,
+    "gap_ci_high":0.0388393809
+  }
+]

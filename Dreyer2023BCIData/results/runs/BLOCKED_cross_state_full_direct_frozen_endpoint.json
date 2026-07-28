@@ -1,0 +1,11 @@
+{
+  "status": "blocked_by_historical_alignment_nonreproducibility",
+  "attempt": "direct frozen cross_state_gap_features, 1000 within-run state permutations and 10000 requested bootstraps",
+  "evidence": {
+    "current_source_observed_group_mean_gap": 0.010902434839551488,
+    "frozen_reported_group_mean_gap": 0.0044076093,
+    "gate": "The full runner requires reproduction of the frozen observed endpoint within 1e-9 before writing inferential outputs."
+  },
+  "interpretation": "The run is invalid and produced no full-inference result. The frozen 0.0044 endpoint and null conclusion are retained; this discrepancy must not be used to revise them.",
+  "required_resolution": "Recover the exact historical covariance-row mapping/code snapshot that generated results/tables/cross_state_confirm.csv, then rerun full inference with that immutable mapping."
+}

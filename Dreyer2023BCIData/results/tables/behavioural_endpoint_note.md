@@ -1,0 +1,1 @@
+Decoder replay CP1 failed (published online TAcc not recovered within 2.5 points for 80% of runs). Trial-level replay margins are therefore not used for inference. The retained external behavioural analysis is run-level recorded TAcc, which is explicitly secondary because 40 trials/run gives a substantial binomial noise floor.

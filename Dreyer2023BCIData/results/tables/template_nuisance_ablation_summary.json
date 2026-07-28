@@ -1,0 +1,9 @@
+{
+  "validity_label": "fixed_ablation_grid_sensitivity",
+  "n_subjects": 57,
+  "mean_partial_r2_differential_over_common": 0.005861244456368023,
+  "mean_partial_r2_common_state_over_controls": 0.029212252285066697,
+  "mean_partial_r2_time_over_template": 0.36530720065114647,
+  "mean_partial_r2_nuisance_over_time": 0.31321921721780777,
+  "config_hash": "0eab092c1f3c6e50"
+}
