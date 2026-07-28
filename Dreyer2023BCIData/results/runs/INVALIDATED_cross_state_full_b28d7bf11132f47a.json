@@ -1,0 +1,6 @@
+{
+  "status": "invalidated_before_interpretation",
+  "config_hash": "b28d7bf11132f47a",
+  "reason": "The frozen covariance alignment was restored, but a manual ridge linear-algebra shortcut still differed from sklearn RidgeClassifier on rank-deficient training folds. The output did not exactly reproduce the frozen subject effects.",
+  "action": "Rerun required with the exact frozen StandardScaler plus RidgeClassifier implementation. No result from this run may be reported."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "invalidated_before_interpretation",
+  "config_hash": "92169a4fa842a0ef",
+  "reason": "The optimized helper remained non-identical to the frozen endpoint for some subjects despite matching diagnostic folds. The aggregate observed gap failed the mandatory frozen-endpoint equivalence check.",
+  "action": "Rerun required by directly calling src.models.sctm.cross_state_gap_features for every observed and null split. No result from this run may be reported."
+}

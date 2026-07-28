@@ -1,0 +1,6 @@
+{
+  "status": "invalidated_before_interpretation",
+  "config_hash": "08419990e64b6b42",
+  "reason": "Although scaling was corrected, this run indexed covariance rows after merge operations rather than using the frozen S6 selected-row/cursor alignment. It did not reproduce the stored frozen endpoint and cannot be interpreted.",
+  "action": "Rerun required with frozen S6 covariance alignment. No result from this run may be reported."
+}

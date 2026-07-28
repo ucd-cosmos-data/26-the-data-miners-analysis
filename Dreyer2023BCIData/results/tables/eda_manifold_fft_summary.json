@@ -1,0 +1,24 @@
+{
+  "validity_label": "exploratory_eda_only",
+  "n_explore_trials_available": 7085,
+  "n_points_embedded": 2490,
+  "feature_set": [
+    "posterior_alpha_logpower",
+    "frontal_midline_theta_logpower",
+    "aperiodic_offset",
+    "aperiodic_exponent",
+    "alpha_peak_hz",
+    "slow_eye_logpower",
+    "blink_amplitude",
+    "blink_event_count",
+    "emg_rms_20_45hz"
+  ],
+  "seed": 20260727,
+  "n_neighbors": 120,
+  "isomap": "C:\\Users\\laser\\OneDrive\\Documents\\cosmos\\26-the-data-miners-analysis\\Dreyer2023BCIData\\results\\figures\\eda_isomap_state_features.png",
+  "tsne": "C:\\Users\\laser\\OneDrive\\Documents\\cosmos\\26-the-data-miners-analysis\\Dreyer2023BCIData\\results\\figures\\eda_tsne_state_features.png",
+  "laplacian_eigenmap": "C:\\Users\\laser\\OneDrive\\Documents\\cosmos\\26-the-data-miners-analysis\\Dreyer2023BCIData\\results\\figures\\eda_laplacian_eigenmap_state_features.png",
+  "fft_panels": "C:\\Users\\laser\\OneDrive\\Documents\\cosmos\\26-the-data-miners-analysis\\Dreyer2023BCIData\\results\\figures\\eda_fft_frequency_spectra.png",
+  "fft_overview": "C:\\Users\\laser\\OneDrive\\Documents\\cosmos\\26-the-data-miners-analysis\\Dreyer2023BCIData\\results\\figures\\eda_fft_contra_ipsi_overview.png",
+  "n_subjects": 30
+}

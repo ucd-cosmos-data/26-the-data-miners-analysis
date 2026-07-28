@@ -1,0 +1,18 @@
+{
+  "validity_label": "full_predeclared_inference",
+  "config_hash": "e90eda294b47248d",
+  "n_subjects_observed": 57,
+  "n_subjects_h1b": 57,
+  "n_permutations": 1000,
+  "observed_group_mean_gap": 0.004407609334092894,
+  "state_permutation_group_mean": -0.0011103553365854454,
+  "state_permutation_group_sd": 0.009088876599133107,
+  "random_variable_group_mean": -0.0007891354608499915,
+  "random_variable_group_sd": 0.009503008118024273,
+  "time_control_group_mean": 0.01896831230129253,
+  "h1b_common_shift_removed_group_mean": 0.002014971493287224,
+  "effective_subjects_permutation_min": 57,
+  "effective_subjects_random_min": 57,
+  "state_permutation_one_sided_greater_p": 0.27472527472527475,
+  "random_variable_one_sided_greater_p": 0.2957042957042957
+}

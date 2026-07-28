@@ -1,0 +1,30 @@
+{
+  "analysis": "confirmatory_cross_state_full",
+  "status": "full_predeclared_inference",
+  "implementation": "frozen_endpoint_equivalent_standard_scaler_ddof0",
+  "covariance_alignment": "frozen_s6_selected_rows_cursor_sequence",
+  "permutations": 1000,
+  "bootstraps": 10000,
+  "seed": 20260727,
+  "state_split": "within_run_median",
+  "held_out_rule": "within_run_trial_parity",
+  "subject_unit": true,
+  "controls": [
+    "within_run_state_permutation",
+    "random_within_run_variable",
+    "within_run_trial_index",
+    "h1b_common_shift_removed"
+  ],
+  "config_hash": "b28d7bf11132f47a",
+  "started_at_utc": "2026-07-27T18:16:45.719766+00:00",
+  "completed_at_utc": "2026-07-27T18:20:16.232594+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "outputs": [
+    "cross_state_subject_effects_confirm.csv",
+    "cross_state_confirm_full_permutation.csv",
+    "cross_state_null_summary_confirm.json",
+    "cross_state_bootstrap_confirm.json",
+    "cross_state_gap_full_nulls.png"
+  ]
+}

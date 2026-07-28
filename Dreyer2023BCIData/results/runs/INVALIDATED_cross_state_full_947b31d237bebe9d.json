@@ -1,0 +1,6 @@
+{
+  "status": "invalidated_before_interpretation",
+  "config_hash": "947b31d237bebe9d",
+  "reason": "The first full-scale execution used sample standard deviation (ddof=1) in an optimized ridge decoder, whereas the frozen endpoint uses sklearn StandardScaler population standard deviation (ddof=0). Its observed 0.01126699 gap therefore did not reproduce the existing frozen endpoint (0.00440761).",
+  "action": "Rerun required with endpoint-equivalent scaling. No result from this run may be reported."
+}

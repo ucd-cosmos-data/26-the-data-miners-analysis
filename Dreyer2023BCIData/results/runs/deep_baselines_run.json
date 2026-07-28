@@ -1,0 +1,212 @@
+{
+  "arguments": {
+    "folds": 5,
+    "max_epochs": 12,
+    "early_stopping_patience": 3,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "seed": 20260727
+  },
+  "folds": [
+    {
+      "architecture": "EEGNet",
+      "fold": 1,
+      "parameter_count": 1794,
+      "epochs_completed": 12,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 272.2956974000008,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5231334594861125,
+        "auc": 0.5475770663541244,
+        "left_precision": 0.5118694362017804,
+        "left_recall": 0.9610027855153204,
+        "left_f1": 0.6679574056147144,
+        "right_precision": 0.6865671641791045,
+        "right_recall": 0.08526413345690455,
+        "right_f1": 0.15169002473206925
+      }
+    },
+    {
+      "architecture": "EEGNet",
+      "fold": 2,
+      "parameter_count": 1794,
+      "epochs_completed": 12,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 272.8220177000003,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5167452830188679,
+        "auc": 0.5336186142755429,
+        "left_precision": 0.562610229276896,
+        "left_recall": 0.15047169811320754,
+        "left_f1": 0.2374395236323037,
+        "right_precision": 0.5096651238769399,
+        "right_recall": 0.8830188679245283,
+        "right_f1": 0.6462972553081305
+      }
+    },
+    {
+      "architecture": "EEGNet",
+      "fold": 3,
+      "parameter_count": 1794,
+      "epochs_completed": 12,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 283.52341519999936,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5240196078431373,
+        "auc": 0.5540476018838908,
+        "left_precision": 0.6129032258064516,
+        "left_recall": 0.1303921568627451,
+        "left_f1": 0.21503637833468067,
+        "right_precision": 0.5134393856280856,
+        "right_recall": 0.9176470588235294,
+        "right_f1": 0.658459373900809
+      }
+    },
+    {
+      "architecture": "EEGNet",
+      "fold": 4,
+      "parameter_count": 1794,
+      "epochs_completed": 12,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 277.8253841000005,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5318627450980392,
+        "auc": 0.5649640763168012,
+        "left_precision": 0.517691888949374,
+        "left_recall": 0.9323529411764706,
+        "left_f1": 0.6657332866643332,
+        "right_precision": 0.6600985221674877,
+        "right_recall": 0.13137254901960785,
+        "right_f1": 0.21913327882256745
+      }
+    },
+    {
+      "architecture": "EEGNet",
+      "fold": 5,
+      "parameter_count": 1794,
+      "epochs_completed": 12,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 321.8792771999997,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5264705882352941,
+        "auc": 0.5453809832756632,
+        "left_precision": 0.584375,
+        "left_recall": 0.18333333333333332,
+        "left_f1": 0.2791044776119403,
+        "right_precision": 0.5156976744186047,
+        "right_recall": 0.8696078431372549,
+        "right_f1": 0.6474452554744525
+      }
+    },
+    {
+      "architecture": "ShallowConvNet",
+      "fold": 1,
+      "parameter_count": 45162,
+      "epochs_completed": 5,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 283.1927708000003,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.506883544462831,
+        "auc": 0.5270357194795896,
+        "left_precision": 0.5197278911564626,
+        "left_recall": 0.17734447539461468,
+        "left_f1": 0.2644513672551056,
+        "right_precision": 0.5046128040257198,
+        "right_recall": 0.8364226135310473,
+        "right_f1": 0.6294681778552746
+      }
+    },
+    {
+      "architecture": "ShallowConvNet",
+      "fold": 2,
+      "parameter_count": 45162,
+      "epochs_completed": 9,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 328.76770190000025,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5108490566037736,
+        "auc": 0.5339723878604485,
+        "left_precision": 0.532394366197183,
+        "left_recall": 0.17830188679245282,
+        "left_f1": 0.26713780918727914,
+        "right_precision": 0.5065155807365439,
+        "right_recall": 0.8433962264150944,
+        "right_f1": 0.6329203539823008
+      }
+    },
+    {
+      "architecture": "ShallowConvNet",
+      "fold": 3,
+      "parameter_count": 45162,
+      "epochs_completed": 9,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 454.0844988000008,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5174019607843137,
+        "auc": 0.5552328431372549,
+        "left_precision": 0.5681381957773513,
+        "left_recall": 0.1450980392156863,
+        "left_f1": 0.23115970324092153,
+        "right_precision": 0.5099747119977521,
+        "right_recall": 0.8897058823529411,
+        "right_f1": 0.6483300589390962
+      }
+    },
+    {
+      "architecture": "ShallowConvNet",
+      "fold": 4,
+      "parameter_count": 45162,
+      "epochs_completed": 8,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 286.71517180000046,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5029411764705882,
+        "auc": 0.5063360246059208,
+        "left_precision": 0.5068181818181818,
+        "left_recall": 0.21862745098039216,
+        "left_f1": 0.30547945205479454,
+        "right_precision": 0.501875,
+        "right_recall": 0.7872549019607843,
+        "right_f1": 0.6129770992366412
+      }
+    },
+    {
+      "architecture": "ShallowConvNet",
+      "fold": 5,
+      "parameter_count": 45162,
+      "epochs_completed": 5,
+      "early_stopping_patience": 3,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "runtime_seconds": 157.61643949999961,
+      "test_metrics_pooled": {
+        "balanced_accuracy": 0.5041666666666667,
+        "auc": 0.5024442522106882,
+        "left_precision": 0.5096481271282634,
+        "left_recall": 0.22009803921568627,
+        "left_f1": 0.3074289626840123,
+        "right_precision": 0.5026570803376055,
+        "right_recall": 0.788235294117647,
+        "right_f1": 0.6138576064134377
+      }
+    }
+  ]
+}

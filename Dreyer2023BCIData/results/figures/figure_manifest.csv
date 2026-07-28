@@ -1,0 +1,15 @@
+figure_id,script,input_artifacts,config_hash,git_commit,caption,status
+erd_ers_confirm,scripts/generate_physiology_figures.py,"matched_erd/epochs or epochs/, subject_split.csv",3b196ccc7ed92d0c,3f86eb1926e365a19034f44a4631c022f2bbd89d,Confirmatory contralateral/ipsilateral ERD/ERS; colorbar outside panels.,generated
+erd_ers_explore,scripts/generate_physiology_figures.py,"matched_erd/epochs or epochs/, subject_split.csv",3b196ccc7ed92d0c,3f86eb1926e365a19034f44a4631c022f2bbd89d,Exploratory ERD/ERS reference panel.,generated
+sensor_space_topographies_confirm,scripts/generate_physiology_figures.py,"epochs/, state_latent.parquet",3b196ccc7ed92d0c,3f86eb1926e365a19034f44a4631c022f2bbd89d,Sensor-space physiological diagnostics; symmetric color limits.,generated
+cross_state_gap_full_nulls,scripts/regenerate_figures.py,"cross_state_confirm_full_permutation.csv, null summary",e90eda294b47248d,3f86eb1926e365a19034f44a4631c022f2bbd89d,Full confirmatory cross-state null distributions; legend below axes.,generated
+ablation_forest,scripts/plot_ablation_forest.py,ablation_summary_full.csv,n/a,3f86eb1926e365a19034f44a4631c022f2bbd89d,Ablation forest of differential partial R2.,generated
+deep_baseline_training_curves,scripts/regenerate_figures.py,deep_baseline_training_curves.csv,n/a,3f86eb1926e365a19034f44a4631c022f2bbd89d,EEGNet and ShallowConvNet training curves.,generated
+state_latent_loadings,scripts/regenerate_figures.py,state_loading_summary.csv,n/a,3f86eb1926e365a19034f44a4631c022f2bbd89d,Pre-cue state-latent loadings with readable labels.,generated
+eda_online_accuracy_trajectory,scripts/regenerate_figures.py,"runs.parquet, subject_split.csv",n/a,3f86eb1926e365a19034f44a4631c022f2bbd89d,Exploratory online accuracy trajectory.,generated
+eda_state_within_run_trajectory,scripts/regenerate_figures.py,"state_features/state_latent",n/a,3f86eb1926e365a19034f44a4631c022f2bbd89d,Exploratory within-run state trajectory.,generated
+eda_isomap_state_features,scripts/eda_manifold_fft.py,state_features explore split,20260727,3f86eb1926e365a19034f44a4631c022f2bbd89d,Isomap embedding of pre-cue state features (exploratory).,generated
+eda_tsne_state_features,scripts/eda_manifold_fft.py,state_features explore split,20260727,3f86eb1926e365a19034f44a4631c022f2bbd89d,t-SNE embedding of pre-cue state features (exploratory).,generated
+eda_laplacian_eigenmap_state_features,scripts/eda_manifold_fft.py,state_features explore split,20260727,3f86eb1926e365a19034f44a4631c022f2bbd89d,Laplacian Eigenmap of pre-cue state features (exploratory).,generated
+eda_fft_frequency_spectra,scripts/eda_manifold_fft.py,MI epochs C3/C4,20260727,3f86eb1926e365a19034f44a4631c022f2bbd89d,Welch/Fourier spectra at C3-C4 by MI class (exploratory).,generated
+eda_fft_contra_ipsi_overview,scripts/eda_manifold_fft.py,MI epochs C3/C4,20260727,3f86eb1926e365a19034f44a4631c022f2bbd89d,Contralateral vs ipsilateral Fourier overview (exploratory).,generated

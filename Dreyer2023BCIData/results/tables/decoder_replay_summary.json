@@ -1,0 +1,11 @@
+[
+  {
+    "n_runs_replayed":336,
+    "n_scored_runs":336,
+    "n_complete_within_2p5":109,
+    "prop_within_2p5":0.3244047619,
+    "median_abs_error":7.5,
+    "mean_abs_error":11.3468005952,
+    "cp1_pass":false
+  }
+]

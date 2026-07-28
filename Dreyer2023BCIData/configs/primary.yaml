@@ -1,0 +1,19 @@
+seed: 20260727
+split:
+  exploratory_subjects: 30
+  confirmatory_subjects: 57
+preprocessing:
+  raw_sfreq_hz: 512
+  target_sfreq_hz: 128
+  mi_window_s: [0.5, 4.5]
+  mi_band_hz: [8, 30]
+  state_window_s: [-3.0, -0.5]
+  state_lowpass_hz: 45
+model:
+  state_latent_dimension: 1
+  tangent_pca_components: 50
+  ridge_alpha: 10
+inference:
+  subject_bootstraps: 10000
+  within_run_permutations: 1000
+  multiple_testing: benjamini-hochberg
